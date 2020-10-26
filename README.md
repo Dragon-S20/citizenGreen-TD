@@ -5,11 +5,11 @@
 ## **Description du TD**
 
 
-Il s'agit dans ce TD de concevoir un appareil d'état fonctionnel et "démocratique" afin de gérer un population. 
+Il s'agit dans ce TD de concevoir un appareil d'état fonctionnel et "démocratique" afin de gérer une population. 
 Il s'appuit sur un collège de sages composé de trois entités (adresses admins).
 
 
-### **Monnaie de ce cette nation, le token** ```CITIZEN ou CTZ ```
+### **Monnaie de cette nation, le token** ```CITIZEN ou CTZ ```
 
 
 Le ``` CTZ ``` sert de monnaie et de point de citoyenneté dans l'état.
@@ -33,7 +33,7 @@ function registerCitizen(address _addrcitizen, unit _age, bool _isIll ) public {
 
 ### **Moyen d'achat du** ``` CITIZEN ```
 
-Le CITIZEN ne peut être acheter que par les entreprises (le paiement des salaires se fait en citizen).
+Le CITIZEN ne peut être acheté que par les entreprises (le paiement des salaires se fait en citizen).
 Ces entreprises devront s'enregistrer auprès de l'état, et cet enregistrement devra être validé par le conseil des sages.
 Il a été défini qu'un système de paies au mois sera mis en place par les entreprises pour chacun de leurs salariés.
 Dans l'énoncé des règles devant être respectées par le citoyen, 
@@ -42,13 +42,13 @@ nous avons  pris le parti d'ajouter l'obligation de gérer lui-même ses charges
 
 ### **Administrateurs: conseil des sages**
 
-Le conseil des sages, 3 admins, devront participer aux tâches de gouvernances et 
-d'administrations de l'état pour cela ils devront mettre en dépôt 100 CITIZEN.
+Le conseil des sages, 3 admins, devra participer aux tâches de gouvernance et 
+d'administration de l'état pour cela ils devra mettre en dépôt 100 CITIZEN.
 Ce dépôt sera la garantie qu'ils feront correctement leur travail d'administrateur. 
 Les administrateurs votent pour effectuer les tâches d'administration comme utiliser les fonds des impôts récoltés 
-ou encore valider l'enregistrement d'une entreprise qui pourront ensuite acheter du CITIZEN.
+ou encore valider l'enregistrement d'une entreprise qui pourra ensuite acheter du CITIZEN.
 En cas de mauvaise gestion ils pourront passer devant un tribunal populaire. Une mauvaise gestion consiste en un crime contre la nation.
-Les administrateurs sont élus par les citoyens. L'élection d'un administrateur dure 1 semaine.
+Les administrateurs, ou sages sont élus par les citoyens. L'élection d'un administrateur dure 1 semaine.
 Ils sont élus pour une durée de 8 semaines. Les administrateurs sont des citoyens qui peuvent effectuer des tâches d'administration.
 
 ```
