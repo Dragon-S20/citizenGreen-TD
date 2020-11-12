@@ -171,7 +171,7 @@ export const useWeb3 = (endpoint) => {
 }
 
 // Web3 context
-export const Web3Context = React.createContext(null)
+export const Web3Context = React.createContext(web3InitialState)
 
 // Web3 provider
 export const Web3Provider = ({ children }) => {

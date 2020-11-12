@@ -283,7 +283,7 @@ export const Citizen_abi = [
 		"type": "function"
 	},
 	{
-		"inputs": [],
+		inputs: [],
 		"name": "symbol",
 		"outputs": [
 			{
